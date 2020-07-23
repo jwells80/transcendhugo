@@ -1,0 +1,37 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "hugo-initio-master"
+
+
+
+
+[params]
+  name = "Transcend Web Solutions"
+  description = ""
+  banner = "images/computer.jpg"
+
+  showSubheader = true
+  showServices = true
+  showRecentWorks = true
+  #showDownload = true
+  #showClients = true
+  footerEnableFollowme = true
+
+
+  subheader = "Developing the Web and Apps"
+
+
+[[menu.main]]
+    name = "home"
+    url = "/"
+    weight = 1
+    
+
+[[params.social]]
+  title = "linkedin"
+  url = "https://www.linkedin.com/in/jason-wells-ba290215/"
+  icon = "fab fa-linkedin"
+  footer = true
+  sharethis = false
+  network = "linkedin"
